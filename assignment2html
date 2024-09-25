@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasachin Geberetinsia - Home Page</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            color: gray;
+            background-color: #E6E6FA; /* Lavender background */
+            text-align: center; /* Centering the content */
+        }
+        .container {
+            width: 980px;
+            margin: 0 auto; /* This centers the content horizontally */
+            text-align: left; /* Ensures text is left-aligned within the container */
+        }
+        hr {
+            border-style: solid;
+            border-color: olive;
+            border-width: 2px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .banner {
+            display: block; /* Allows for centering */
+            margin: 0 auto; /* Centers the banner horizontally */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="banner.jpg" alt="banner-image" class="banner" width="728" height="90">
+        <hr>
+        <h3>Websites about Protected Areas Issues</h3>
+        <h4>Student Name: Kasachin Geberetinsia - Student Number: 301383496</h4>
+        <h4>COMP213 - Fall 2024</h4>
+        <hr>
+        <h3><b>World Protected Areas</b></h3>
+        
+        <p>Protected areas, also known as conservation areas, are specific geographical regions that receive
+        legal protection to conserve nature and biodiversity.</p>
+        
+        <p>They include national parks, nature reserves, marine sanctuaries, and wilderness areas, established to
+        preserve ecosystems, wildlife, and cultural values.</p>
+
+        <p>These areas play a vital role in maintaining biodiversity, ensuring ecosystem services, and acting as natural carbon sinks.</p>
+
+        <img src="map.jpg" alt="world protected areas" style="float:right;" height="220" width="221">
+
+        <p>Protected areas are essential for biodiversity conservation, climate change mitigation, and the provision
+        of ecosystem services like clean water and air. They safeguard endangered species, act as natural carbon
+        sinks (e.g., forests and wetlands), and help protect against climate impacts. Additionally, these areas
+        preserve cultural heritage, support ecotourism, and serve as valuable sites for scientific research and
+        education.</p>
+
+        <p>Protected areas also contribute to the achievement of the UN Sustainable Development Goals by
+        promoting environmental sustainability and supporting local communities.</p>
+
+        <p>These areas are often managed by governments, local communities, or international organizations like UNESCO or
+        the International Union for Conservation of Nature (IUCN). Their purpose is to preserve biodiversity, protect 
+        endangered species, and mitigate the impacts of human activities on nature.</p>
+
+        <br>
+        <p>The following resources offer valuable insights and strategies on how protected areas can be effectively
+        managed and preserved:</p>
+        
+        <blockquote>
+            <i>Strategies for Effective Management of Protected Areas:</i>
+            <ul>
+                <li><b>Community Involvement</b>: Engaging local communities in conservation efforts fosters a sense of ownership and responsibility, leading to more effective protection of natural resources.</li>
+                <li><b>Sustainable Tourism</b>: Promoting eco-tourism helps generate revenue for conservation while allowing visitors to experience and appreciate the beauty of protected areas.</li>
+                <li><b>Biodiversity Monitoring</b>: Regular assessment of biodiversity within protected areas helps identify threats and measure the success of conservation strategies.</li>
+                <li><b>Legislation and Policy Support</b>: Strong legal frameworks and policies are essential for the establishment and enforcement of protected areas.</li>
+            </ul>
+        </blockquote>
+        
+        <ul>
+            <li><a href="https://www.unep-wcmc.org/" target="_blank">UNEP-WCMC</a></li>
+            <li><a href="https://www.un.org/sustainabledevelopment/biodiversity/" target="_blank">UN Biodiversity and Conservation</a></li>
+            <li><a href="https://www.canada.ca/en/services/environment/conservation/protected-areas.html" target="_blank">Government of Canada - Protected Areas</a></li>
+            <li><a href="https://www.conservation.org/home" target="_blank">Conservation International: Protected Areas</a></li>
+            <li><a href="https://www.ramsar.org/" target="_blank">Ramsar: Wetlands of International Importance</a></li>
+            <li><a href="https://www.protectedplanet.net/" target="_blank">WDPA</a></li>
+        </ul>
+
+        <footer>
+            <h6>&nbsp;Copyright: All rights reserved 2024, Image Credits: UNEP-WCMC, Kasachin Geberetinsia, Student ID: 30138496 | Assignment 2: Protected Areas</h6>
+        </footer>
+    </div>
+</body>
+</html>
