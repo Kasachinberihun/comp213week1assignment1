@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Watch Series 7 - Product Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+        }
+        #container {
+            width: 980px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        header {
+            background: #007aff;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .home-link {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .apple-logo {
+            width: 120px; /* Increased the size */
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 20px 0;
+        }
+        .product-description {
+            width: 60%;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        #features {
+            margin: 20px 0;
+        }
+        .product-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .product-table th, .product-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .product-table th {
+            background-color: #007aff;
+            color: white;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .distributor-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-top: 20px;
+        }
+        .map-container {
+            width: 50%; /* Adjust the size to fit the layout */
+            max-width: 300px; /* You can set a max width as needed */
+        }
+        .map-container img {
+            width: 100%; /* Make the map image responsive */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <!-- HTML Comment: Kasachin Geberetinsia - Student Number 301383496 -->
+    <div id="container">
+        <header>
+            <a href="http://www.apple.com"><img src="Apple logo.jpg" alt="Apple Logo" class="apple-logo" /></a>
+            <h1>Apple Watch Series 7</h1>
+            <a class="home-link" href="index.html">Home Page</a>
+        </header>
+
+        <div class="logo">
+            <h1>Redefine Your Health</h1>
+        </div>
+        <h4> Student Name: Kasachin Geberetinsia 
+        Student Number: 301383496 </h4>
+
+        <div class="content">
+            <div>
+                <img src="watch.jpg" alt="Apple Watch Series 7" style="width: 200px;" />
+                <a href="details.html">View Larger Picture</a>
+            </div>
+            <div class="product-description">
+                <h2>Product Description</h2>
+                <p>The Apple Watch Series 7, designed by Apple Inc., features a larger,
+                more durable display with slimmer borders, offering about 20% more screen area
+                than its predecessor, the Series 6. Available in 41mm and 45mm sizes, it is built with 
+                enhanced durability, including crack-resistant glass, improved dust resistance (IP6X),
+                and water resistance (WR50). The Series 7 is primarily manufactured in China, with some 
+                production also taking place in Vietnam. Apple utilizes a global 
+                supply chain, sourcing components from various countries, but the 
+                assembly is predominantly done in Asia.</p>
+            </div>
+        </div>
+
+        <h2>Product Features</h2>
+        <ul>
+            <li>Always-On Retina display</li>
+            <li>Heart rate monitoring</li>
+            <li>Blood oxygen monitoring</li>
+            <li>Water-resistant up to 50 meters</li>
+        </ul>
+
+        <h2>Pricing Information</h2>
+        <table class="product-table">
+            <thead>
+                <tr>
+                    <th>Model & Description</th>
+                    <th>Price (CAD)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Model 1: Apple Watch Series 7 - 41mm (Aluminum case with Sport Band)</td>
+                    <td>$429.00</td>
+                </tr>
+                <tr>
+                    <td>Model 2: Apple Watch Series 7 - 45mm (Aluminum case with Sport Band)</td>
+                    <td>$459.00</td>
+                </tr>
+                <tr>
+                    <td>Model 3: Apple Watch Series 7 - 41mm (Stainless Steel case with Milanese Loop)</td>
+                    <td>$699.00</td>
+                </tr>
+                <tr>
+                    <td>Model 4: Apple Watch Series 7 - 45mm (Stainless Steel case with Leather Link)</td>
+                    <td>$749.00</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Find Distributors</h2>
+        <div class="distributor-section">
+            <div class="map-container">
+                <img src="map.png" usemap="#canada-map" alt="Map of Canada" />
+                <map name="canada-map">
+                    <area shape="rect" coords="100,150,180,200" href="https://www.bestbuy.ca" alt="Best Buy in Ontario" />
+                    <area shape="rect" coords="200,100,280,150" href="https://www.apple.com/ca/retail/quebec" alt="Apple Store in Quebec" />
+                    <area shape="rect" coords="300,150,380,200" href="https://www.futureshop.ca" alt="Future Shop in British Columbia" />
+                </map>
+            </div>
+            <div>
+                <h3>Local Distributors:</h3>
+                <ul>
+                    <li><a href="https://www.bestbuy.ca" target="_blank">Best Buy (Ontario)</a></li>
+                    <li><a href="https://www.apple.com/ca/retail/quebec" target="_blank">Apple Store (Quebec)</a></li>
+                    <li><a href="https://www.futureshop.ca" target="_blank">Future Shop (British Columbia)</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <footer>
+           
+    </div>
+</body>
+</html>
